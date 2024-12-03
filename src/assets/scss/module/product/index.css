@@ -1,0 +1,59 @@
+.div-conatiner-product {
+    width: 50%;
+    height: auto;
+    background-color: blueviolet;
+    margin: auto;
+}
+.div-heading-product {
+    text-align: center;
+}
+.div-box-product {
+    margin: auto;
+    width: 400px;
+    height: 300px;
+    background-color: blue;
+    border-radius: 10px;
+}
+.div-box-childs {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+.div-box-childs-color {
+    width: 100px;
+    height: 50px;
+    margin-top: 5px;
+    margin-right: 2px;
+    background-color: red; /*Dynamic color steps*/
+}
+.box-color-red {
+    background-color: red;
+}
+.box-color-yellow {
+    background-color: yellow;
+}
+.box-color-orange {
+    background-color: orange;
+}
+.box-color-blue {
+    background-color: blue;
+}
+/* buat css masing masing untuk merubah color */
+/* Tablet */
+@media screen and (max-width: 768px) {
+    .div-box-product {
+        background-color: yellow;
+    }
+}
+/* Mobile */
+@media screen and (max-width: 450px) {
+    .div-box-product {
+        background-color: red;
+    }
+}
+/* Dekstop */
+/* @media (max-width: 1366px) {
+    .div-box-product {
+        background-color: blue;
+    }
+} */

@@ -1,0 +1,27 @@
+.container {
+    width: 100vw;
+    height: 300px;
+    background-color: rgb(76, 0, 255);
+    margin-top: 20px;
+    padding-top: 60px;
+    padding-bottom: 60px;
+}
+.box-container {
+    width: 405px;
+    height: 300px;
+    margin: auto;
+    margin-bottom: 20px;
+    background-color: blue;
+}
+.div-box-childs {
+    width: 400px;
+    height: 60px;
+    margin: auto;
+    padding: 2px;
+    border-radius: 3px;
+    background-color: rgb(234, 0, 255);
+    
+}
+.div-box-childs-color:hover {
+    cursor: pointer;
+}

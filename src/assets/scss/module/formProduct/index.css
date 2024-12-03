@@ -1,0 +1,144 @@
+.my-12 {
+    margin-top: 12px;
+    margin-bottom: 12px;
+}
+.mx-auto {
+    margin: auto;
+}
+.layout {
+    width: 90%;
+    /* background-color: aquamarine; */
+    margin-left: 20px;
+}
+.layout h2 {
+    padding-left: 0px;
+    font-size: 20px;
+}
+.container {
+    width: 100%;
+    height: auto;
+    padding-bottom: 60px;
+    /* background-color: aqua; */
+}
+.layout input[type="text"]{
+    width: 150px;
+    margin-left: 3px;
+    /* background-color: aquamarine; */
+}
+.layout input[type="number"]{
+    width: 150px;
+    margin-left: 3px;
+    /* background-color: aquamarine; */
+}
+.template {
+    margin-top: 20px;
+    width: 90%;
+    display: flex;
+    flex-direction: row;
+    /* background-color: blue; */
+    position: relative;
+    margin-left: 20px;
+}
+.template-form input[type="text"]{
+    width: 150px;
+    margin-left: 3px;
+    /* background-color: aquamarine; */
+}
+.template-form input[type="number"]{
+    width: 150px;
+    margin-left: 3px;
+    /* background-color: aquamarine; */
+}
+button[type="submit"]{
+    background-color: seagreen;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    position: absolute;
+    top: 40px;
+    left: 0;
+    right: 0;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-top: 5px;
+    font-size: 16px;
+    font-weight: lighter;
+    /* width: 100%; */
+}
+
+@media screen and (max-width: 768px) {
+    .layout h2 {
+    padding-left: 5px;
+    font-size: 20px;
+    }
+    .template {
+        width: 90%;
+        padding: 0px;
+    }
+    button[type="submit"]{
+        margin-top: 20px;
+    }
+    .template-form input[type="text"]{
+    width: 159px;
+    margin-right: 2px;
+    }
+    .template-form input[type="number"]{
+    width: 159px;
+    margin-right: 2px;
+    }
+    .layout input[type="text"]{
+    width: 159px;
+    margin-right: 2px;
+    /* background-color: aquamarine; */
+    }
+    .layout input[type="number"]{
+    width: 159px;
+    margin-right: 2px;
+    /* background-color: aquamarine; */
+    }
+}
+
+@media screen and (max-width: 480px) {
+    .layout h2 {
+        text-align: center;
+        font-size: 20px;
+    }
+    button[type="submit"]{
+        margin-top: 60px;
+    }
+    .template {
+        width: 90%;
+        /* background-color: green; */
+        padding-left: 0px;
+        margin-top: 10px;
+    }
+    .template-form input[type="text"]{
+        width: 98%;
+        margin-left: 0px;
+        /* background-color: #8a2be2; */
+    }
+    .template-form input[type="number"]{
+        width: 98%;
+        margin-left: 0px;
+        /* background-color: blueviolet; */
+    }
+    button[type="submit"]{
+        position: absolute;
+        top: 140px;
+    }
+    .layout {
+        width: 90%;
+        /* background-color: aquamarine; */
+        padding-left: 0px;
+    }
+    .layout input[type="text"]{
+        width: 98%;
+        margin-left: 0px;
+        /* background-color: aquamarine; */
+    }
+    .layout input[type="number"]{
+        width: 98%;
+        margin-left: 0px;
+        /* background-color: aquamarine; */
+    }
+}
