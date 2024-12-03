@@ -45,7 +45,7 @@ export default function App() {
       <div className={'my-5 mx-3'}>
         <h1>3. Disable count button if count reach 15</h1>
         <button
-          disabled={count === 15}
+          disabled={count >= 15}
           className={'btn btn-sm btn-outline-primary'}
         >
           Disable this button
